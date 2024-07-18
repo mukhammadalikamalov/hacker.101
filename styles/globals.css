@@ -1,0 +1,41 @@
+/* styles/Home.module.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.results {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.results li {
+  margin-bottom: 10px;
+}
+
+.results li a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+
+.results li a:hover {
+  text-decoration: underline;
+}
